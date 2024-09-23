@@ -1,75 +1,20 @@
-# Nuxt 3 Minimal Starter
+### Instruções de execução
+Foi utilizado node 20.x para construção do serviço
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```shell
+  npm install #  instala as dependências
 ```
 
-## Development Server
+### Execute a aplicação
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+```shell
+  npm run preview # inicializa o serviço em modo produção que fica disponível na porta 3000 ou 3001
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+```shell
+  npm run dev # inicializa o serviço em modo desenvolvimento que fica disponível na porta 3000 ou 3001
 ```
 
-Locally preview production build:
+### Acesse a aplicação
+Acesse `http://localhost:3000` ou `http://localhost:3001` no navegador para utilizar a aplicação.
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
